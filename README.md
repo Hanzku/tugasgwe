@@ -39,6 +39,7 @@ Aplikasi ini memakai PHP dan MySQL. `vercel.json` mengatur runtime PHP komunitas
    | `DB_NAME` | Nama database yang dibuat |
    | `DB_USER` | Pengguna database |
    | `DB_PASSWORD` | Kata sandi database |
+   | `DB_SSL` | Isi `1` untuk koneksi TLS (wajib untuk endpoint publik TiDB) |
 
 5. Deploy project. Setelah mengubah environment variables, lakukan redeploy agar nilainya digunakan.
 
